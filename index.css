@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: lightcoral;
@@ -14,12 +14,13 @@ header {
 
 nav ul {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
     display: inline;
     margin-right: 20px;
-
 }
 
 nav a {
@@ -31,29 +32,28 @@ nav a {
 
 section {
     margin: 20px;
-
+    padding-bottom: 50px; /* Ensures space between section and footer */
 }
 
 h1,
 h2,
 h3 {
     color: #333;
-
 }
 
 footer {
     background-color: #5f5555;
     color: white;
-    padding: 0.25em;
+    padding: 1em; /* Adds padding inside the footer */
     text-align: center;
-    font-size: 25px;
-    margin 50px;
-
+    font-size: 18px;
+    margin-top: 20px; /* Space between footer and body content */
 }
 
 footer ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 footer li {
@@ -67,3 +67,4 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
